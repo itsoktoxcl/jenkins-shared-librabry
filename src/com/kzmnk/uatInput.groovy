@@ -3,7 +3,7 @@ package com.kzmnk
 public class uatInput {
 
   def buildIsUatApproved(){
-    def file = new File("/_tools/approved.txt")
+    def file = new File("/var/jenkins_home/workspace/approved.txt")
 
     if (file.exists()){
       return true;
